@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | BrightSteps Foundation</title>
+  <meta name="description" content="Get in touch with BrightSteps Foundation for questions, volunteering, or partnership opportunities." />
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">BrightSteps</div>
+    <nav class="nav" id="nav" aria-label="Primary Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Whether you have questions, want to volunteer, or explore partnership opportunities, reach out to us.</p>
+
+      <address>
+        <strong>BrightSteps Foundation</strong><br />
+        123 Bright Lane<br />
+        Tech City, TX 75001<br />
+        Phone: <a href="tel:+1234567890">(123) 456-7890</a><br />
+        Email: <a href="mailto:info@brightsteps.org">info@brightsteps.org</a>
+      </address>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post" novalidate>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BrightSteps Foundation</p>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <img src="images/facebook-logo.png" alt="Facebook logo" />
+      </a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <img src="images/twitter-logo.png" alt="Twitter logo" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="hamburger.js"></script>
+</body>
+</html>

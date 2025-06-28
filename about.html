@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>About Us | BrightSteps</title>
+  <meta name="description" content="Learn more about BrightSteps Foundation's mission and team.">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">BrightSteps</div>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger">☰</button>
+  </header>
+
+  <main>
+    <section class="about-intro">
+      <h1>Our Mission</h1>
+      <p>BrightSteps Foundation is dedicated to empowering underprivileged youth by providing them access to digital tools, mentorship, and education in technology.</p>
+    </section>
+
+    <section class="team">
+      <h2>Meet Our Team</h2>
+
+      <article class="team-member">
+        <h3>Sayed Perera</h3>
+        <button onclick="toggleBio('bio1')">Read Bio</button>
+        <p id="bio1" class="bio hidden">Jane is the founder of BrightSteps with 10+ years in nonprofit leadership and education access initiatives.</p>
+      </article>
+
+      <article class="team-member">
+        <h3>John Smith</h3>
+        <button onclick="toggleBio('bio2')">Read Bio</button>
+        <p id="bio2" class="bio hidden">John manages outreach programs and has worked across 3 continents training youth in digital literacy.</p>
+      </article>
+
+      <article class="team-member">
+        <h3>Sara Ali</h3>
+        <button onclick="toggleBio('bio3')">Read Bio</button>
+        <p id="bio3" class="bio hidden">Sara handles community relations and organizes our volunteer efforts across multiple cities.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BrightSteps Foundation</p>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+    </div>
+  </footer>
+
+  <script src="hamburger.js"></script>
+  <script src="toggleBios.js"></script>
+</body>
+</html>

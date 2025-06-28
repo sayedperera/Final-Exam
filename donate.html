@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate | BrightSteps Foundation</title>
+  <meta name="description" content="Support BrightSteps Foundation by making a donation to empower youth through technology education." />
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">BrightSteps</div>
+    <nav class="nav" id="nav" aria-label="Primary Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="donate.html" aria-current="page">Donate</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="donate-intro">
+      <h1>Make a Difference</h1>
+      <p>Your generous donation helps us provide underprivileged youth with the digital tools, mentorship, and education they need to succeed.</p>
+    </section>
+
+    <section class="donation-form">
+      <h2>Donate Now</h2>
+      <form action="#" method="post" novalidate>
+        <label for="donor-name">Name:</label><br />
+        <input type="text" id="donor-name" name="donor-name" required /><br />
+
+        <label for="donor-email">Email:</label><br />
+        <input type="email" id="donor-email" name="donor-email" required /><br />
+
+        <label for="amount">Donation Amount (USD):</label><br />
+        <input type="number" id="amount" name="amount" min="1" step="any" required /><br />
+
+        <label for="message">Message (Optional):</label><br />
+        <textarea id="message" name="message" rows="4"></textarea><br />
+
+        <button type="submit">Donate</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BrightSteps Foundation</p>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <img src="images/facebook-logo.png" alt="Facebook logo" />
+      </a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <img src="images/twitter-logo.png" alt="Twitter logo" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="hamburger.js"></script>
+</body>
+</html>
